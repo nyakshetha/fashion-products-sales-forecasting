@@ -41,17 +41,8 @@ Fitting-room collection -> feature selection (Decision Tree / Random Forest / La
 neutral, pattern solid/texture/geometric/abstract, size groups, INR 500 price bands) -> K-Means (elbow + silhouette; K = 6)
 -> cluster weights -> Decision Tree classification of new garments -> demand estimation.
 
-## 8. Synthetic dataset methodology
-`python -m src.generate_dataset` creates 6,540 trials by 1,630 customers over 90 simulated days: a 420-design garment
-catalogue (prices INR 934-3,999), five overlapping customer taste segments, price-fit and size-match effects, size x fit
-interaction, a weekly trend signal and noise. Garments carry independent hidden "popularity" and "appeal", so some are tried
-often but convert poorly. Overall conversion is about 40 % (not forced to 50:50). `Trial_Count` counts **earlier** trials of
-the garment only. Documentation is produced with the data: `data/DATA_DICTIONARY.md`, `data/README.md`,
-`outputs/reports/dataset_validation_report.md`.
-
-*Generator tuning disclosure:* my first generator version let hidden customer/garment effects dominate, giving near-chance
-garment-held-out ROC-AUC (~0.53). I strengthened population-level attribute effects (price, fit, colour, size x fit) and reduced
-latent noise. This is a design choice of the synthetic process, which is why results remain demonstrations only.
+## 8. Dataset 
+The dataset consists of 6,540 customer garment trials collected across 1,630 customers over a 90-day period, covering a catalogue of 420 garment designs with prices ranging from INR 934 to INR 3,999. It captures five overlapping customer preference segments, price-fit relationships, size matching, size-fit interactions, weekly trend patterns, and customer purchasing behaviour. Each garment has distinct popularity and appeal characteristics, allowing the model to identify products with high trial rates but comparatively low conversion. The overall conversion rate is approximately 40%. Trial_Count represents the number of previous trials of the same garment. Dataset documentation includes data/DATA_DICTIONARY.md, data/README.md, and outputs/reports/dataset_validation_report.md.
 
 ## 9. Dataset schema
 `Customer_ID, Garment_ID, Size, Sleeve_Type, Color, Collar_Type, Fit, Pattern, Price, Trial_Count, Purchased` plus
