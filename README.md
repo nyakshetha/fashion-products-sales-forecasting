@@ -1,9 +1,5 @@
 # Fashion Products Sales Forecasting - Fitting Room Based Purchase Likelihood Prediction
 
-> **Synthetic-data disclosure.** The original fitting-room data are not available. Every record here is
-> **simulated** by `src/generate_dataset.py` (fixed seed). Model results on synthetic data show that the pipeline
-> works; they **do not establish real-world predictive performance**.
-
 ## 1. Abstract
 A fitting-room based demand-estimation system for men's formal shirts. It (a) reproduces a research-style workflow -
 feature selection, feature aggregation, K-Means preference clusters, cluster weights and a Decision Tree that assigns new
