@@ -1,0 +1,19 @@
+{
+  "base_rate": 0.4001529051987768,
+  "primary": {
+    "A": {
+      "model": "XGBoost",
+      "best_by_auc": "Logistic Regression",
+      "auc_gap_to_best": 0.005,
+      "note": "XGBoost is the project's designated primary model. On this synthetic data 'Logistic Regression' scores higher by 0.005 ROC-AUC; see the comparison table."
+    },
+    "B": {
+      "model": "XGBoost",
+      "best_by_auc": "Logistic Regression",
+      "auc_gap_to_best": 0.0047,
+      "note": "XGBoost is the project's designated primary model. On this synthetic data 'Logistic Regression' scores higher by 0.005 ROC-AUC; see the comparison table."
+    }
+  },
+  "uses_xgboost": true,
+  "trend_source": "simulated"
+}

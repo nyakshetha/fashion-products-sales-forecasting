@@ -1,0 +1,7 @@
+Cluster,Records,Weight_Pct,Relative_Demand_Index,Label,Purchase_Rate
+0,1312,20.06,1.204,"C1: Ultra Slim / Full / Geometric / ~INR 2,130",0.3
+1,1253,19.16,1.15,"C2: Regular / Geometric / Full / ~INR 1,880",0.446
+2,1178,18.01,1.081,"C3: Solid / Full / Slim / ~INR 1,950",0.504
+3,1017,15.55,0.933,"C4: Band / Geometric / Full / ~INR 2,050",0.386
+4,912,13.94,0.836,"C5: Half / Button-Down / Abstract / ~INR 1,870",0.404
+5,868,13.27,0.796,"C6: Half / Regular / Warm / ~INR 2,000",0.357

@@ -1,0 +1,10 @@
+Scenario B - XGBoost - customer-held-out test set
+
+               precision    recall  f1-score   support
+
+Not purchased       0.66      0.88      0.75       820
+    Purchased       0.57      0.25      0.35       509
+
+     accuracy                           0.64      1329
+    macro avg       0.61      0.57      0.55      1329
+ weighted avg       0.62      0.64      0.60      1329

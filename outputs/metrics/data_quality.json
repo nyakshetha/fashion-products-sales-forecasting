@@ -1,0 +1,104 @@
+{
+  "missing": [
+    {
+      "column": "Customer_ID",
+      "missing": 0,
+      "missing_pct": 0.0
+    },
+    {
+      "column": "Garment_ID",
+      "missing": 0,
+      "missing_pct": 0.0
+    },
+    {
+      "column": "Size",
+      "missing": 0,
+      "missing_pct": 0.0
+    },
+    {
+      "column": "Sleeve_Type",
+      "missing": 0,
+      "missing_pct": 0.0
+    },
+    {
+      "column": "Color",
+      "missing": 0,
+      "missing_pct": 0.0
+    },
+    {
+      "column": "Collar_Type",
+      "missing": 0,
+      "missing_pct": 0.0
+    },
+    {
+      "column": "Fit",
+      "missing": 0,
+      "missing_pct": 0.0
+    },
+    {
+      "column": "Pattern",
+      "missing": 0,
+      "missing_pct": 0.0
+    },
+    {
+      "column": "Price",
+      "missing": 0,
+      "missing_pct": 0.0
+    },
+    {
+      "column": "Trial_Count",
+      "missing": 0,
+      "missing_pct": 0.0
+    },
+    {
+      "column": "Purchased",
+      "missing": 0,
+      "missing_pct": 0.0
+    },
+    {
+      "column": "Trial_Timestamp",
+      "missing": 0,
+      "missing_pct": 0.0
+    },
+    {
+      "column": "Trend_Index",
+      "missing": 0,
+      "missing_pct": 0.0
+    }
+  ],
+  "duplicates": {
+    "exact_duplicate_rows": 0,
+    "repeat_customer_garment_pairs": 0
+  },
+  "outliers": [
+    {
+      "column": "Price",
+      "q1": 1499.0,
+      "q3": 2389.0,
+      "lower_bound": 164.0,
+      "upper_bound": 3724.0,
+      "n_outliers": 60,
+      "outlier_pct": 0.92
+    },
+    {
+      "column": "Trial_Count",
+      "q1": 4.0,
+      "q3": 19.0,
+      "lower_bound": -18.5,
+      "upper_bound": 41.5,
+      "n_outliers": 536,
+      "outlier_pct": 8.2
+    }
+  ],
+  "schema_problems": [],
+  "target": {
+    "missing_labels": 0,
+    "non_binary_labels": 0,
+    "conversion_rate": 0.4002,
+    "class_counts": {
+      "0": 3923,
+      "1": 2617
+    }
+  },
+  "note": "Outliers are reported, not removed: prices and trial counts are legitimate retail values."
+}

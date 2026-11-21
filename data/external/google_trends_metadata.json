@@ -1,0 +1,17 @@
+{
+  "status": "connected",
+  "source": "live",
+  "last_updated": "2026-11-21T05:34:11.719978+00:00",
+  "last_updated_human": "21 Nov 2026, 11:04",
+  "geo": "IN",
+  "timeframe": "today 3-m",
+  "terms_used": {
+    "pattern:solid": "plain shirt",
+    "pattern:texture": "textured shirt",
+    "pattern:geometric": "checks shirt",
+    "pattern:abstract": "printed shirt",
+    "fit:Slim": "slim fit shirt",
+    "fit:Ultra Slim": "skinny fit shirt"
+  },
+  "note": "Fresh live data fetched via PyTrends."
+}

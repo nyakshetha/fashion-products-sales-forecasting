@@ -1,0 +1,7 @@
+Cluster,Label,Dominant_Color_Group,Color_Share,Dominant_Pattern_Group,Pattern_Share,Dominant_Size_Group,Size_Share,Dominant_Fit,Dominant_Collar,Dominant_Sleeve,Mean_Price,Purchase_Rate
+0,"C1: Ultra Slim / Full / Geometric / ~INR 2,130",cool,0.387,geometric,0.542,M,0.391,Ultra Slim,Regular,Full,2131.0,0.3
+1,"C2: Regular / Geometric / Full / ~INR 1,880",cool,0.39,geometric,0.765,M,0.389,Slim,Regular,Full,1879.0,0.446
+2,"C3: Solid / Full / Slim / ~INR 1,950",cool,0.46,solid,1.0,M,0.412,Slim,Regular,Full,1954.0,0.504
+3,"C4: Band / Geometric / Full / ~INR 2,050",cool,0.595,geometric,0.711,M,0.409,Slim,Button-down,Full,2051.0,0.386
+4,"C5: Half / Button-Down / Abstract / ~INR 1,870",cool,0.557,solid,0.334,M,0.433,Slim,Button-down,Half,1867.0,0.404
+5,"C6: Half / Regular / Warm / ~INR 2,000",cool,0.366,solid,0.395,M,0.442,Slim,Regular,Half,2001.0,0.357
